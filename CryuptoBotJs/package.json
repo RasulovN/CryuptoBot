@@ -1,0 +1,27 @@
+{
+  "name": "cryptobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crypto.js",
+  "scripts": {
+    "start": "node crypto.js",
+    "dev": "nodemon crypto.js"
+  },
+  "keywords": [
+    "start",
+    "bot",
+    "crtyupto"
+  ],
+  "author": "Rasulov <nurbekrasulov71@gmaol.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.3",
+    "telegraf": "^4.5.2",
+    "telegram-keyboard": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
