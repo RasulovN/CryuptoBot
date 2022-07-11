@@ -1,14 +1,13 @@
 const { Telegraf } = require("telegraf");
 const express = require('express')
 const axios = require("axios");
-// const dotenv = require("dotenv");
-// dotenv.config();
+const dotenv = require("dotenv");
+dotenv.config();
 const app = express()
-BOT_TOKEN='5075085658:AAHw1RULtilwpQ-wWDDRoTKeL1moCJBByuo';
 
-// const bot = new Telegraf(process.env.BOT_TOKEN);
-const bot = new Telegraf(BOT_TOKEN);
-const apikey = "5a1f29633b681ed2efbd4913fb2e969741f953fcbf2edb4a8cebf9bc62f31c19";
+const bot = new Telegraf(process.env.BOT_TOKEN
+const apikey = process.env.API_KEY
+//const apikey = "5123a1f29633b681ed2efbd4913fb2e969741f953fcbf2edb4a8cebf9bc62f31c19123";
 
 //Start bot command
 bot.start((ctx) => {
